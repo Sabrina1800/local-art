@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Log in</title>
+    <link rel="stylesheet" type="text/css" href="css_js/Login_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="css_js/Login.js"></script>
+
+  </head>
+
+  <body>
+
+    <div id="logobar"><img src="img/logo.png"></div>
+
+    <!-- <div id="login">
+      <button type="button"><a class="button" href="https://api.instagram.com/oauth/authorize?client_id=0e159430fc854eeeb12bd7ce710d7b3e&redirect_uri=https://sabrina1800.github.io/profile.html&scope=basic+likes&response_type=code">Sign in with Instagram</a></button>
+    </div> -->
+
+    <div class="form-wrap">
+      <div class="tabs">
+        <h3 class="signup-tab"><a class="active" href="#signup-tab-content">Sign Up</a></h3>
+        <h3 class="login-tab"><a href="#login-tab-content">Login</a></h3>
+      </div><!--.tabs-->
+
+      <div class="tabs-content">
+        <div id="signup-tab-content" class="active">
+          <form class="signup-form" action="" method="post">
+            <input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
+            <input type="text" class="input" id="user_name" autocomplete="off" placeholder="Username">
+            <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
+            <input type="submit" class="button" value="Sign Up">
+            
+            <button type="button"><a class="instabutton" href="https://api.instagram.com/oauth/authorize?client_id=0e159430fc854eeeb12bd7ce710d7b3e&redirect_uri=https://sabrina1800.github.io/profile.html&scope=basic+likes&response_type=code">Sign up with Instagram</a></button>
+
+          </form><!--.login-form-->
+          <div class="help-text">
+            <p>By signing up, you agree to our</p>
+            <p><a href="#">Terms of service</a></p>
+          </div><!--.help-text-->
+        </div><!--.signup-tab-content-->
+
+        <div id="login-tab-content">
+          <form class="login-form" action="" method="post">
+            <input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email or Username">
+            <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
+            <input type="checkbox" class="checkbox" id="remember_me">
+            <label for="remember_me">Remember me</label>
+
+            <input type="submit" class="button" value="Log in">
+            
+            <button type="submit" class="button"><a class="instabutton" href="https://api.instagram.com/oauth/authorize?client_id=0e159430fc854eeeb12bd7ce710d7b3e&redirect_uri=https://sabrina1800.github.io/profile.html&scope=basic+likes&response_type=code">Log in with Instagram</a></button>
+
+          </form><!--.login-form-->
+
+          <div class="help-text">
+            <p><a href="#">Forget your password?</a></p>
+          </div><!--.help-text-->
+        </div><!--.login-tab-content-->
+      </div><!--.tabs-content-->
+    </div><!--.form-wrap-->
+
+   
+    <ul id="navbar">
+     <li><a href="index.html"><img src="img/home.png"></a></li>
+     <li><a href="search.html"><img src="img/search.png"></a></li>
+     <li><a href="login.html"><img src="img/account.png"></a></li>
+     <li><a href="about.html"><img src="img/about.png"></a></li>
+    </ul>
+
+    <!-- access_token=499695302.0e15943.a97f6c7bb6944b8cb0237cba9720c22d -->
+
+  </body>
+</html>
