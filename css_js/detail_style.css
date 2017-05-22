@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Lucida sans typewriter;
+    src: url(img/myfont.ttf)
+}
+
+body { margin: 0; font-size: 100%; font-family: Lucida sans typewriter; }
+
+
+#logobar {
+  background-color: #adadad;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+#navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #adadad;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+#navbar li {
+  padding: 10px 30px 10px 30px;
+}
+
+#navbar img {
+  max-width: 100%;
+  height: auto;
+  width: 70%;
+ 
+}
+#image {
+  width: 60%;
+  margin: 60px 20% 20px 20%;
+}
+#image img {
+  width: 100%;
+  height: auto;
+}
+#captions {
+  width: 60%;
+  margin: 0 20% 100px 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  #logobar { display: none; } 
+
+  
+
+}
