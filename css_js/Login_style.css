@@ -37,7 +37,7 @@ a {
 
 
 input {
-  font: 16px/26px "Lucida sans typewriter", sans-serif; }
+  font: 16px "Lucida sans typewriter", sans-serif; }
 button {
   font: 16px "Lucida sans typewriter", sans-serif; 
   width: 100%;
@@ -49,6 +49,8 @@ button {
   cursor: pointer;
   text-transform: uppercase;  
 }
+
+button:hover { background-color: #EB9035; }
 
 body {
   color: #666;
@@ -76,7 +78,7 @@ body {
   font-weight: 400;
   background-color: #e6e7e8;
   display: block;
-  color: #666; 
+  color: #E35813; 
 }
 .form-wrap .tabs h3 a.active {
   background-color: #fff; 
@@ -113,7 +115,7 @@ body {
   }
 
   .form-wrap form .button:hover {
-      background-color: #8C8C8C; 
+      background-color: #EB9035; 
   }
   /*.form-wrap form button:hover {
       background-color: #8C8C8C; 
