@@ -47,7 +47,7 @@ button {
 button:hover { background-color: #E35813; }
 
 #logobar {
-  background-color: #adadad;
+  background-color: #FFCAA8;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -55,7 +55,11 @@ button:hover { background-color: #E35813; }
   display: flex;
   justify-content: center;
 }
-
+#logobar img {
+  width: 6%;
+  height: 5%;
+  margin: 5px 47% 5px 47%;
+}
 /*#tags {
   list-style: none;
   display: flex;
@@ -84,7 +88,7 @@ button:hover { background-color: #E35813; }
   flex-flow: row wrap;
   justify-content: center;
   overflow: hidden;
-  background-color: #adadad;
+  background-color: #FFCAA8;
   position: fixed;
   bottom: 0;
   width: 100%;
